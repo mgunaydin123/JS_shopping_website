@@ -1,0 +1,139 @@
+.navbar-nav {
+    display: flex;         /* Flexbox düzeni ile öğeleri yatay diz */
+    justify-content: flex-start; /* Sol hizalama (isteğe bağlı) */
+}
+
+.navbar a{
+    text-decoration: none !important;
+}
+ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline;
+    margin: 3px;
+}
+h1{
+    font-size: 80px;
+}
+h1 span{
+    background: #EBD96B;
+}
+.markalar {
+    background-color: #EBD96B; /* Kırmızı arka plan */
+    display: block; /* Genişlik ve yükseklik tanımlaması için önemli olabilir */
+}
+ .marka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.marka-img{
+    background: transparent !important;
+}
+.marka img {
+    background-color: transparent; /* Saydam arka plan */
+    border: 2px solid transparent; /* İstersen sınır ekleyebilirsin */
+    padding: 10px; /* İstersen iç boşluk ekleyebilirsin */
+    border-radius: 5px; /* İstersen köşeleri yuvarlayabilirsin */
+}
+
+.sale, .renk{
+    background-color: #f7db53;
+}
+.sale h2{
+    font-size: 80px;
+    margin-top: 100px;
+
+}
+.down{
+    line-height: 70px;
+}
+.last, .bi{
+    background-color: #d1b526;
+    color: white;
+}
+
+.input-group{
+    width: 350px;
+    margin-left: 450px;
+    margin-top: 50px;
+ }
+ 
+ .btn-outline-warning:hover{
+    background:  #d1b526 !important;
+    color: black !important;
+ }
+ .point {
+    position: absolute;
+    width: 10px; /* Noktanın genişliği */
+    height: 10px; /* Noktanın yüksekliği */
+    background-color: #413c3c; /* Noktanın rengi */
+    border-radius: 50%; /* Yuvarlak görünüm için */
+}
+
+.top {
+    top: 10px; /* Üstteki nokta için konum */
+    left: 85%;
+    transform: translateX(-50%);
+    background-color:  #d1b526;
+    width: 25px; /* Noktanın genişliği */
+    height: 25px; /* Noktanın yüksekliği */
+}
+
+.bottom {
+    bottom: 10px; 
+    left: 15%;
+    transform: translateX(-50%);
+    background-color:  #d1b526;
+    width: 25px; /* Noktanın genişliği */
+    height: 25px; /* Noktanın yüksekliği */
+}
+
+.left {
+    top: 15%;
+    left: 10px; /* Soldaki nokta için konum */
+    transform: translateY(-50%);
+    width: 20px; /* Noktanın genişliği */
+    height: 20px; /* Noktanın yüksekliği */
+}
+
+.right {
+    top: 85%;
+    right: 10px; /* Sağdaki nokta için konum */
+    transform: translateY(-50%);
+}
+
+.btn-outline-dark:hover{
+    background-color: #d1b526;
+    color: black !important;
+}
+.btn-outline-dark{
+    background-color: black;
+}
+
+.bg-white, .uniqe {
+    background-color:#d1b526;
+    padding: 20px; /* Genel boşluk */
+    border-top-left-radius: 50px; /* Sol üst köşe */
+    border-bottom-right-radius: 50px; /* Sağ alt köşe */
+    display: inline-block; /* İçerik etrafında boşluk bırak */
+}
+
+.position-relative {
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    font-size: 5rem; /* Yıldızların boyutu */
+    color:#FFFFFF; /* Yıldızların rengi */
+}
+.star:hover{
+    transform: translateY(50px) !important;
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+}
